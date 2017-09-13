@@ -1,0 +1,31 @@
+{
+  "name": "tarefasmongo",
+  "version": "1.0.0",
+  "description": "Gerenciador de Tarefas Mongoose",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giovanebarcelos/tarefasmongo.git"
+  },
+  "author": "Giovane Barcelos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giovanebarcelos/tarefasmongo/issues"
+  },
+  "homepage": "https://github.com/giovanebarcelos/tarefasmongo#readme",
+  "dependencies": {
+  	"express":"*",
+  	"body-parser": "*",
+    "ejs": "^2.4.2",
+    "morgan":"*",
+    "mongodb":"*",
+    "mongoose":"*"
+  },
+  "engines": {
+    "node": "6.11.1"
+  }, 
+  "scripts":{
+   "start": "node app.js",
+   "test": "node app.js"
+  }
+}
